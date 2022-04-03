@@ -1,0 +1,15 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  width: 90%;
+  max-width: 1440px;
+}
+
+@media screen and (max-width: 992px) {
+  .app-container {
+    justify-content: flex-start;
+  }
+}

@@ -1,0 +1,153 @@
+.food-item {
+  min-width: 50%;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 992px) {
+  .food-item {
+    margin-right: 20px;
+  }
+}
+
+.food-item-image {
+  width: 255px;
+  height: 150px;
+  border-radius: 8px;
+  margin-left: 165px;
+}
+
+@media screen and (max-width: 992px) {
+  .food-item-image {
+    width: 160px;
+    height: 120px;
+    margin-left: 24px;
+  }
+}
+
+.food-item-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 30px;
+}
+
+@media screen and (max-width: 992px) {
+  .food-item-info {
+    margin-bottom: 40px;
+  }
+}
+
+.food-item-name {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 0.2px;
+  color: #334155;
+  margin: 0px;
+}
+
+@media screen and (max-width: 992px) {
+  .food-item-name {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.cost-cont {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.food-item-cost {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #334155;
+  margin: 0px;
+}
+
+@media screen and (max-width: 992px) {
+  .food-item-cost {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+.rating-cont {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.food-item-rating {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #0a1f44;
+  margin: 0px;
+}
+
+@media screen and (max-width: 992px) {
+  .food-item-rating {
+    line-height: 18px;
+  }
+}
+
+.add-btn {
+  text-align: center;
+  border: 2px solid #ffa412;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 52px;
+  height: 32px;
+  font-family: 'DM Sans';
+  font-size: 12px;
+  line-height: 16px;
+  flex-grow: 0;
+  background: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.cart-btn-qty-cont {
+  display: flex;
+  align-items: center;
+}
+
+.decrement-count {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.increment-count {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.icon-btn {
+  color: #475569;
+  width: 16px;
+  height: 16px;
+}
+
+.active-count {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #475569;
+}

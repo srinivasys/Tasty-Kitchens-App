@@ -1,0 +1,107 @@
+.restaurant-header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 50px;
+  font-family: 'DM Sans';
+}
+
+.res-head {
+  color: #183b56;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 36px;
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .res-head {
+    font-size: 32px;
+    line-height: 48px;
+  }
+}
+
+.select-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .select-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.res-des {
+  color: #64748b;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .res-des {
+    font-size: 22px;
+    line-height: 32px;
+  }
+}
+
+.sort-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .sort-container {
+    justify-content: flex-end;
+  }
+}
+
+.sort {
+  color: #475569;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  margin-left: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .sort {
+    font-size: 22px;
+    line-height: 32px;
+  }
+}
+
+.select {
+  color: #475569;
+  background-color: #ffffff;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+@media screen and (min-width: 768px) {
+  .select {
+    font-size: 22px;
+    line-height: 32px;
+  }
+}
+
+.option {
+  color: #475569;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .option {
+    font-size: 22px;
+    line-height: 32px;
+  }
+}
